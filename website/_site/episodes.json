@@ -1,0 +1,722 @@
+{
+  "name": "You Suck at Programming",
+  "site": "https://ysap.sh",
+  "generated": 1755286351,
+  "episodes": [
+    {
+      "title": "Bash Intro",
+      "desc": "An introduction to bash",
+      "link": "https://ysap.sh/v/1",
+      "num": 1,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7156734153147305262",
+        "youtube": "https://www.youtube.com/watch?v=PEKNB5ex29U",
+        "instagram": "https://www.instagram.com/p/C6SK2d7AwoK/"
+      }
+    },
+    {
+      "title": "Bash Arguments",
+      "desc": "Parsing arguments in bash",
+      "link": "https://ysap.sh/v/2",
+      "num": 2,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7157457925466754347",
+        "youtube": "https://www.youtube.com/watch?v=GanBobctt7I",
+        "instagram": "https://www.instagram.com/reels/C6U7BY8vzAO/"
+      }
+    },
+    {
+      "title": "Bash Reading Files",
+      "desc": "Reading files in bash",
+      "link": "https://ysap.sh/v/3",
+      "num": 3,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7158503684312157482",
+        "youtube": "https://www.youtube.com/watch?v=A-UFX6bpQzM",
+        "instagram": "https://www.instagram.com/reels/C6ZD6azurz4/"
+      }
+    },
+    {
+      "title": "Subshell Basics",
+      "desc": "What happens when you `find | while`",
+      "link": "https://ysap.sh/v/4",
+      "num": 4,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7162680518335548715",
+        "youtube": "https://www.youtube.com/watch?v=JpSVtgUxxfI",
+        "instagram": "https://www.instagram.com/reels/C6eUbDtO_JX/"
+      }
+    },
+    {
+      "title": "Bash Line Parsing",
+      "desc": "Parsing lines with builtins",
+      "link": "https://ysap.sh/v/5",
+      "num": 5,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7164209740883430699",
+        "youtube": "https://www.youtube.com/watch?v=gB1OFgiilzQ",
+        "instagram": "https://www.instagram.com/reels/C6hCPF6xqHI/"
+      }
+    },
+    {
+      "title": "Bash and DTrace",
+      "desc": "Using `dtrace` and bash",
+      "link": "https://ysap.sh/v/6",
+      "num": 6,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7164821593967889710",
+        "youtube": "https://www.youtube.com/watch?v=LNaXcOS22j0",
+        "instagram": "https://www.instagram.com/reels/C6l3g0-N66c/"
+      }
+    },
+    {
+      "title": "Bash manpage",
+      "desc": "How to read the manpage with `man`",
+      "link": "https://ysap.sh/v/7",
+      "num": 7,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7165897094752947498",
+        "youtube": "https://www.youtube.com/watch?v=iKZcKK2K5cc",
+        "instagram": "https://www.instagram.com/reels/C6rE-3MPPmv/"
+      }
+    },
+    {
+      "title": "Bash Commands",
+      "desc": "Commands, functions, aliases, builtins",
+      "link": "https://ysap.sh/v/8",
+      "num": 8,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7167010415010958635",
+        "youtube": "https://www.youtube.com/watch?v=FTXQVNydLHQ",
+        "instagram": "https://www.instagram.com/reels/C61qojhtH0F/"
+      }
+    },
+    {
+      "title": "Bash Variables",
+      "desc": "Basics of variables",
+      "link": "https://ysap.sh/v/9",
+      "num": 9,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7168140685185486122",
+        "youtube": "https://www.youtube.com/watch?v=D0BaEYxhdUE",
+        "instagram": "https://www.instagram.com/reels/C7E1pn7uVwS/"
+      }
+    },
+    {
+      "title": "Bash Config",
+      "desc": "How to create a config file",
+      "link": "https://ysap.sh/v/10",
+      "num": 10,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7174874405477027115",
+        "youtube": "https://www.youtube.com/watch?v=b8tDk5nnQnM",
+        "instagram": "https://www.instagram.com/reels/C7MxIDYvGRj/"
+      }
+    },
+    {
+      "title": "Bash Regex",
+      "desc": "Using regex in pure bash",
+      "link": "https://ysap.sh/v/11",
+      "num": 11,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7175941495688580394",
+        "youtube": "https://www.youtube.com/watch?v=nBH5z2H5BIY",
+        "instagram": "https://www.instagram.com/reels/C7ZgD5cP4bn/"
+      }
+    },
+    {
+      "title": "Bash Time",
+      "desc": "Timing commands with `time`",
+      "link": "https://ysap.sh/v/12",
+      "num": 12,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7177133786377833774",
+        "youtube": "https://www.youtube.com/watch?v=8g0fei1QYhg",
+        "instagram": "https://www.instagram.com/reels/C7mpvNPxjqG/"
+      }
+    },
+    {
+      "title": "Bash Date",
+      "desc": "Parsing dates in bash",
+      "link": "https://ysap.sh/v/13",
+      "num": 13,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7181662902884076842",
+        "youtube": "https://www.youtube.com/watch?v=CQRfW3Ud3p4",
+        "instagram": "https://www.instagram.com/reels/C7zTTH9u-Qr/"
+      }
+    },
+    {
+      "title": "Fork Bomb Understood",
+      "desc": "Creating a fork bomb in bash",
+      "link": "https://ysap.sh/v/14",
+      "num": 14,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7183410799849835822",
+        "youtube": "https://www.youtube.com/watch?v=FyaTv8p19FM",
+        "instagram": "https://www.instagram.com/reels/C8Cs-ylRoPz/"
+      }
+    },
+    {
+      "title": "Bash Readline",
+      "desc": "Readline and terminal shortcuts",
+      "link": "https://ysap.sh/v/15",
+      "num": 15,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7185562822841994539",
+        "youtube": "https://www.youtube.com/watch?v=kVi202emyh8",
+        "instagram": "https://www.instagram.com/reels/C8NBkuzJvtU/"
+      }
+    },
+    {
+      "title": "Actually Fork Bombing",
+      "desc": "This is how to fork bomb a machine",
+      "link": "https://ysap.sh/v/16",
+      "num": 16,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7190123255766830382",
+        "youtube": "https://www.youtube.com/watch?v=rwH6h0Avu0U",
+        "instagram": "https://www.instagram.com/reels/C8Z8aB5PzNi/"
+      }
+    },
+    {
+      "title": "Safe Fork Bomb",
+      "desc": "How to safely understand a fork bomb",
+      "link": "https://ysap.sh/v/17",
+      "num": 17,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7191614736285404459",
+        "youtube": "https://www.youtube.com/watch?v=aDt4XttmnnM",
+        "instagram": "https://www.instagram.com/reels/C82L-Svtq4B/"
+      }
+    },
+    {
+      "title": "IO Redirection",
+      "desc": "Redirects and pipelines",
+      "link": "https://ysap.sh/v/18",
+      "num": 18,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7192982841188355374",
+        "youtube": "https://www.youtube.com/watch?v=7VaO2dxs_kg",
+        "instagram": "https://www.instagram.com/reels/C9Fht23vTPi/"
+      }
+    },
+    {
+      "title": "Quotes and SSH",
+      "desc": "How to quote variables over `ssh`",
+      "link": "https://ysap.sh/v/19",
+      "num": 19,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7194975992052567342",
+        "youtube": "https://www.youtube.com/watch?v=JtxnWIjxqU4",
+        "instagram": "https://www.instagram.com/reels/C9QixeXsD46/"
+      }
+    },
+    {
+      "title": "Bash Arrays",
+      "desc": "Understanding arrays in bash",
+      "link": "https://ysap.sh/v/20",
+      "num": 20,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7206361318553586986",
+        "youtube": "https://www.youtube.com/watch?v=r4Sc-DpIprk",
+        "instagram": "https://www.instagram.com/p/C9atSvFtjGP/"
+      }
+    },
+    {
+      "title": "Escaping Quotes",
+      "desc": "Quote wrangling in bash",
+      "link": "https://ysap.sh/v/21",
+      "num": 21,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7207497574180277546",
+        "youtube": "https://www.youtube.com/watch?v=5DD7YrOgmq4",
+        "instagram": "https://www.instagram.com/p/C9yG2tbvDAY/"
+      }
+    },
+    {
+      "title": "Backtick Commands",
+      "desc": "How to handle `backticks`",
+      "link": "https://ysap.sh/v/22",
+      "num": 22,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7209416428498324779",
+        "youtube": "https://www.youtube.com/watch?v=jgs53fFpgPU",
+        "instagram": "https://www.instagram.com/reel/C97xlpGAril"
+      }
+    },
+    {
+      "title": "Login Shells",
+      "desc": "`.bashrc` vs `.bash_profile` vs `.profile`",
+      "link": "https://ysap.sh/v/23",
+      "num": 23,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7210163107593751851",
+        "youtube": "https://www.youtube.com/watch?v=sHpHAqvYRYU",
+        "instagram": "https://www.instagram.com/reel/C-LMFqiOF6N/"
+      }
+    },
+    {
+      "title": "SSH Port Forward",
+      "desc": "Understanding `ssh -L` local forwarding",
+      "link": "https://ysap.sh/v/24",
+      "num": 24,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7212265603342634282",
+        "youtube": "https://www.youtube.com/watch?v=YlYZtDnZUO8",
+        "instagram": "https://www.instagram.com/reel/C-ap1ChOV9e/"
+      }
+    },
+    {
+      "title": "SSH keys",
+      "desc": "`id_rsa` and ssh keys",
+      "link": "https://ysap.sh/v/25",
+      "num": 25,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7214984150904802603",
+        "youtube": "https://www.youtube.com/watch?v=5upiduo1ZwU",
+        "instagram": "https://www.instagram.com/reel/C-lLZWlRC20/"
+      }
+    },
+    {
+      "title": "Parameter Expansion",
+      "desc": "`${parameter//expansions}` in bash",
+      "link": "https://ysap.sh/v/26",
+      "num": 26,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7216822787996945706",
+        "youtube": "https://www.youtube.com/watch?v=Bzi7pa7y15M",
+        "instagram": "https://www.instagram.com/reel/C-2nJdbpj1j/"
+      }
+    },
+    {
+      "title": "Unix Signals",
+      "desc": "Unix signals with `kill`",
+      "link": "https://ysap.sh/v/27",
+      "num": 27,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7219764374968306986",
+        "youtube": "https://www.youtube.com/watch?v=mIcdOWq4MME",
+        "instagram": "https://www.instagram.com/p/C_EDXetsPFl/"
+      }
+    },
+    {
+      "title": "Local Return Codes",
+      "desc": "Bash functions and exit codes",
+      "link": "https://ysap.sh/v/28",
+      "num": 28,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7251261570750156074",
+        "youtube": "https://www.youtube.com/watch?v=OpDcqADeR4U",
+        "instagram": "https://www.instagram.com/reel/C_Yrf0qgkoG/"
+      }
+    },
+    {
+      "title": "GNU Utils",
+      "desc": "GNU Tools can be slightly unique",
+      "link": "https://ysap.sh/v/29",
+      "num": 29,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7253086383789591850",
+        "youtube": "https://www.youtube.com/watch?v=zvHEhTkIdL0",
+        "instagram": "https://www.instagram.com/reel/C_gLdY-Pu3W/"
+      }
+    },
+    {
+      "title": "IFS Variable",
+      "desc": "`IFS` variable in scripts",
+      "link": "https://ysap.sh/v/30",
+      "num": 30,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7254649422762560811",
+        "youtube": "https://www.youtube.com/watch?v=i7qr3fDNQTo",
+        "instagram": "https://www.instagram.com/reel/C_yMujxu395/"
+      }
+    },
+    {
+      "title": "Simple File Globbing",
+      "desc": "Understand `shopt -s nullglob`",
+      "link": "https://ysap.sh/v/31",
+      "num": 31,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7257942648986651947",
+        "youtube": "https://www.youtube.com/watch?v=vGJIY8RVly0",
+        "instagram": "https://www.instagram.com/p/C_--KYxsL9O/"
+      }
+    },
+    {
+      "title": "Process ptools",
+      "desc": "Using tools like `pkill` and `pgrep`",
+      "link": "https://ysap.sh/v/32",
+      "num": 32,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7259494243771632938",
+        "youtube": "https://www.youtube.com/watch?v=hkKdRrKf_0o",
+        "instagram": "https://www.instagram.com/p/DARLEM2tJWv/"
+      }
+    },
+    {
+      "title": "PS1 Prompt",
+      "desc": "Custom prompt for bash with `PS1`",
+      "link": "https://ysap.sh/v/33",
+      "num": 33,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7262022629459103018",
+        "youtube": "https://www.youtube.com/watch?v=1XM1cmhHX-k",
+        "instagram": "https://www.instagram.com/reel/DAtV8kutLcX/"
+      }
+    },
+    {
+      "title": "Is a TTY",
+      "desc": "Tell if you're on a TTY w/ `isatty(3)`",
+      "link": "https://ysap.sh/v/34",
+      "num": 34,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7266471930830605610",
+        "youtube": "https://www.youtube.com/watch?v=7XXud_tRYg0",
+        "instagram": "https://www.instagram.com/reel/DA_NOkuAZOn/"
+      }
+    },
+    {
+      "title": "Zombie Processes",
+      "desc": "What is a defunct process?",
+      "link": "https://ysap.sh/v/35",
+      "num": 35,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7271341286806900011",
+        "youtube": "https://www.youtube.com/watch?v=E-vAUhE29rk",
+        "instagram": "https://www.instagram.com/reel/DBbu0Lzxmko/"
+      }
+    },
+    {
+      "title": "Parens vs Curly",
+      "desc": "`()` vs `{}` in bash",
+      "link": "https://ysap.sh/v/36",
+      "num": 36,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7277754511098187050",
+        "youtube": "https://www.youtube.com/watch?v=SyZ_25iO7LU",
+        "instagram": "https://www.instagram.com/reel/DBwhEoMxQuk/"
+      }
+    },
+    {
+      "title": "SSH Scripts",
+      "desc": "Run commands over `ssh`",
+      "link": "https://ysap.sh/v/37",
+      "num": 37,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7282139775778262318",
+        "youtube": "https://www.youtube.com/watch?v=XOo5I7ir43U",
+        "instagram": "https://www.instagram.com/reel/DCKeGwfA9AK/"
+      }
+    },
+    {
+      "title": "For Loop vs While Loop",
+      "desc": "When to use `for` vs `while`",
+      "link": "https://ysap.sh/v/38",
+      "num": 38,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7284371531646389547",
+        "youtube": "https://www.youtube.com/watch?v=TVzG-vc1lWM",
+        "instagram": "https://www.instagram.com/reel/DCmdMx-ODFI/"
+      }
+    },
+    {
+      "title": "Environmental Variables",
+      "desc": "Env vars on Unix with `env`",
+      "link": "https://ysap.sh/v/39",
+      "num": 39,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7287322106424102190",
+        "youtube": "https://www.youtube.com/watch?v=Ql-47hpjeYo",
+        "instagram": "https://www.instagram.com/p/DDFRX-VPVZG/"
+      }
+    },
+    {
+      "title": "Reading a Whole File",
+      "desc": "Understanding the `mapfile` builtin",
+      "link": "https://ysap.sh/v/40",
+      "num": 40,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7289468070785994027",
+        "youtube": "https://www.youtube.com/watch?v=Z7Ie7NrUQV0",
+        "instagram": "https://www.instagram.com/p/DDX4EokOCJE/"
+      }
+    },
+    {
+      "title": "Proc FS Environment",
+      "desc": "Looking at `/proc/$$/environ`",
+      "link": "https://ysap.sh/v/41",
+      "num": 41,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7292170649970298154",
+        "youtube": "https://www.youtube.com/watch?v=siYvZv7q-u8",
+        "instagram": "https://www.instagram.com/p/DDz1z8uMoJl/"
+      }
+    },
+    {
+      "title": "Docker Crimes",
+      "desc": "Committing crimes with `docker`",
+      "link": "https://ysap.sh/v/42",
+      "num": 42,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7295044032852413738",
+        "youtube": "https://www.youtube.com/watch?v=ZZMJOO4o_NE",
+        "instagram": "https://www.instagram.com/p/DEaaAERvZ4-/"
+      }
+    },
+    {
+      "title": "Env in code",
+      "desc": "Environmental variables in code",
+      "link": "https://ysap.sh/v/43",
+      "num": 43,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7299883131467812142",
+        "youtube": "https://www.youtube.com/watch?v=aLLhO-BpTJs",
+        "instagram": "https://www.instagram.com/reel/DFdtea1P54d/"
+      }
+    },
+    {
+      "title": "Debugging bash",
+      "desc": "Use `bash -x` in code",
+      "link": "https://ysap.sh/v/44",
+      "num": 44,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7342542801499950382",
+        "youtube": "https://www.youtube.com/watch?v=4TAx3Z9OgPs",
+        "instagram": "https://www.instagram.com/p/DF5iFlvPgMg/"
+      }
+    },
+    {
+      "title": "Bash Substrings",
+      "desc": "Substrings in bash",
+      "link": "https://ysap.sh/v/45",
+      "num": 45,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7345159439667825963",
+        "youtube": "https://www.youtube.com/watch?v=KPVm06L55gc",
+        "instagram": "https://www.instagram.com/p/DGHFTYqsw8f/"
+      }
+    },
+    {
+      "title": "Sudo and Echo",
+      "desc": "`sudo echo` won't work how you think",
+      "link": "https://ysap.sh/v/46",
+      "num": 46,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7347734025408105771",
+        "youtube": "https://www.youtube.com/watch?v=zuA5PinqTHE",
+        "instagram": "https://www.instagram.com/p/DGYjeqTO8K9/"
+      }
+    },
+    {
+      "title": "The Alternate Screen",
+      "desc": "Alt screens in your terminal",
+      "link": "https://ysap.sh/v/47",
+      "num": 47,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7350386598216830251",
+        "youtube": "https://www.youtube.com/watch?v=wr_d44XRHtM",
+        "instagram": "https://www.instagram.com/p/DGlTuKKvdxe/"
+      }
+    },
+    {
+      "title": "Shell Pipelines",
+      "desc": "Use `PIPESTATUS` to track exit codes",
+      "link": "https://ysap.sh/v/48",
+      "num": 48,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7352947786515631403",
+        "youtube": "https://www.youtube.com/watch?v=5wGgHViyokE",
+        "instagram": "https://www.instagram.com/reel/DGvl9rjOIRD/"
+      }
+    },
+    {
+      "title": "Special Characters",
+      "desc": "Using the `$'...'` syntax",
+      "link": "https://ysap.sh/v/49",
+      "num": 49,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7355534233634360619",
+        "youtube": "https://www.youtube.com/watch?v=qao-LLzYzI8",
+        "instagram": "https://www.instagram.com/p/DHT17BNutOV/"
+      }
+    },
+    {
+      "title": "Background Jobs",
+      "desc": "Using `&` and `bg`",
+      "link": "https://ysap.sh/v/50",
+      "num": 50,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7358126357752237358",
+        "youtube": "https://www.youtube.com/watch?v=IhT5QSTCPps",
+        "instagram": "https://www.instagram.com/reel/DHrJez1Or24/"
+      }
+    },
+    {
+      "title": "Brace Expansion",
+      "desc": "Expanding `{...}` in bash",
+      "link": "https://ysap.sh/v/51",
+      "num": 51,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7361498703481294123",
+        "youtube": "https://www.youtube.com/watch?v=0y1ZO79qWc8",
+        "instagram": "https://www.instagram.com/reel/DIJ6fQvRT4j/"
+      }
+    },
+    {
+      "title": "Brace Number Expansion",
+      "desc": "Braces `{n..m}` vs `seq $n $m`",
+      "link": "https://ysap.sh/v/52",
+      "num": 52,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7361498703481294123",
+        "youtube": "https://www.youtube.com/watch?v=fGCCi_KegHg",
+        "instagram": "https://www.instagram.com/p/DIWtdYLP-E1/"
+      }
+    },
+    {
+      "title": "C-Style for-loops",
+      "desc": "Using `for ((i = 0; i < 4; i++))` loops",
+      "link": "https://ysap.sh/v/53",
+      "num": 53,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7365931806325214510",
+        "youtube": "https://www.youtube.com/watch?v=v634D-Cezyk",
+        "instagram": "https://www.instagram.com/p/DI1aKIhJ3ug/"
+      }
+    },
+    {
+      "title": "Basic Globbing",
+      "desc": "Using `*`, `?`, `[abc]`, etc. wildcards",
+      "link": "https://ysap.sh/v/54",
+      "num": 54,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7499133946723175722",
+        "youtube": "https://www.youtube.com/watch?v=gsucx2W-9sg",
+        "instagram": "https://www.instagram.com/p/DJE4lMHJXGv/"
+      }
+    },
+    {
+      "title": "Extended Globbing",
+      "desc": "Using `+(foo|bar).txt` as a glob",
+      "link": "https://ysap.sh/v/55",
+      "num": 55,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7500989806579813678",
+        "youtube": "https://www.youtube.com/watch?v=K-SvJpFLTjE",
+        "instagram": "https://www.instagram.com/p/DJRxB_-PUtE/"
+      }
+    },
+    {
+      "title": "Parameter Transformation",
+      "desc": "Modify variables in fun ways",
+      "link": "https://ysap.sh/v/56",
+      "num": 56,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7502857112595451182",
+        "youtube": "https://www.youtube.com/watch?v=HTqbVB4mMv8",
+        "instagram": "https://www.instagram.com/p/DJeuM-tvQW2/"
+      }
+    },
+    {
+      "title": "GNU timeout Command",
+      "desc": "Exporting Bash Functions",
+      "link": "https://ysap.sh/v/57",
+      "num": 57,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7506211110161501486",
+        "youtube": "https://www.youtube.com/watch?v=EEDXuTE3Ko4",
+        "instagram": "https://www.instagram.com/p/DJ1_rqoRpPp/"
+      }
+    },
+    {
+      "title": "Find Accidental Glob",
+      "desc": "Quoting expansions with commands",
+      "link": "https://ysap.sh/v/58",
+      "num": 58,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7512504853978074414",
+        "youtube": "https://www.youtube.com/watch?v=FpOZGoq4Ogc",
+        "instagram": "https://www.instagram.com/p/DKhqm2cOrc-/"
+      }
+    },
+    {
+      "title": "Named Pipes",
+      "desc": "Uing `mkfifo` and pipes in Bash",
+      "link": "https://ysap.sh/v/59",
+      "num": 59,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7516991335165922590",
+        "youtube": "https://www.youtube.com/watch?v=hthUAYVqors",
+        "instagram": "https://www.instagram.com/p/DLAy_ZGIYM3/"
+      }
+    },
+    {
+      "title": "Bash ENV File",
+      "desc": "Using `BASH_ENV` in bash for env vars",
+      "link": "https://ysap.sh/v/60",
+      "num": 60,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7519539913121860919",
+        "youtube": "https://www.youtube.com/watch?v=e9iSYCHslzg",
+        "instagram": "https://www.instagram.com/p/DLSeyh8MJi8/"
+      }
+    },
+    {
+      "title": "ARG_MAX Limits",
+      "desc": "Argument List too long error",
+      "link": "https://ysap.sh/v/61",
+      "num": 61,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7524721374389128462",
+        "youtube": "https://www.youtube.com/watch?v=GJRTr_Lrl6M",
+        "instagram": "https://www.instagram.com/p/DL2b7fosyYu/"
+      }
+    },
+    {
+      "title": "Exit Code",
+      "desc": "Pitfalls with exit codes in bash",
+      "link": "https://ysap.sh/v/62",
+      "num": 62,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7527360350421781773",
+        "youtube": "https://www.youtube.com/watch?v=xT2d0htjb6I",
+        "instagram": "https://www.instagram.com/p/DMIvzRagx--/"
+      }
+    },
+    {
+      "title": "Syntax Checker",
+      "desc": "Syntax check bash scripts with `bash -n`",
+      "link": "https://ysap.sh/v/63",
+      "num": 63,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7530298645858602254",
+        "youtube": "https://www.youtube.com/watch?v=O_6Jot9i79U",
+        "instagram": "https://www.instagram.com/p/DMdILCXNntu/"
+      }
+    },
+    {
+      "title": "Signal Processing",
+      "desc": "Trapping signals with `trap`",
+      "link": "https://ysap.sh/v/64",
+      "num": 64,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7532554059501407501",
+        "youtube": "https://www.youtube.com/watch?v=aXovP1sUtoE",
+        "instagram": "https://www.instagram.com/p/DMsyRq2J5NL/"
+      }
+    },
+    {
+      "title": "Recursive Globbing",
+      "desc": "Find all files with `globstar` and `**`",
+      "link": "https://ysap.sh/v/65",
+      "num": 65,
+      "external": {
+        "tiktok": "https://www.tiktok.com/@bahamas10_/video/7536277839721565453",
+        "youtube": "https://www.youtube.com/watch?v=uiIqD_eGq24",
+        "instagram": "https://www.instagram.com/p/DNGnzbBsf9s/"
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+const EPISODES = {
+  "name": "No I dont suck at Programming",
+  "site": "",
+  "generated": 1755295777,
+  "episodes": [
+    {
+      "title": "ITS TIME FOR CTFs WRITE-UPs",
+      "desc": "CYBERGENIX_SECURITY CTF",
+      "link": "https://medium.com/@z.ishan_Ansari/its-time-for-ctfs-write-ups-aebab7004fe4",
+      "num": 1,
+      "external": {
+        "tiktok": "",
+        "youtube": "",
+        "instagram": ""
+      }
+    },
+    {
+      "title": "CTF - Write_UP (L375_G0)",
+      "desc": "EnigmaXplore CTF",
+      "link": "https://medium.com/@z.ishan_Ansari/ctf-write-up-l375-g0-a0e4ecfade92",
+      "num": 2,
+      "external": {
+        "tiktok": "",
+        "youtube": "",
+        "instagram": ""
+      }
+    },
+    {
+      "title": "“GUESS WHAT?",
+      "desc": "cruXipher2024 CTF",
+      "link": "https://medium.com/@z.ishan_Ansari/guess-what-6c5390a330c2",
+      "num": 3,
+      "external": {
+        "tiktok": "",
+        "youtube": "",
+        "instagram": ""
+      }
+    },
+    {
+      "title": "PWNME QUALS CTF”25",
+      "desc": "PWNME CTF",
+      "link": "https://medium.com/@z.ishan_Ansari/pwnme-quals-ctf-25-941a7c4628be",
+      "num": 4,
+      "external": {
+        "tiktok": "",
+        "youtube": "",
+        "instagram": ""
+      }
+    },
+    {
+      "title": "HANDOFF ",
+      "desc": "PICO CTF",
+      "link": "https://medium.com/@z.ishan_Ansari/pwnme-quals-ctf-25-941a7c4628be",
+      "num": 5,
+      "external": {
+        "tiktok": "",
+        "youtube": "",
+        "instagram": ""
+      }
+    },
+    {
+      "title": "And Your Enemy Closer!",
+      "desc": "BugCrowd Ctf-2025 ",
+      "link": "https://medium.com/@z.ishan_Ansari/and-your-enemy-closer-d691736202d1",
+      "num": 6,
+      "external": {
+        "tiktok": "",
+        "youtube": "",
+        "instagram": ""
+      }
+    }
+  ]
+};

@@ -1,0 +1,29 @@
+    [0m[0m[0m
+   [0m    [38;5;223m█████ ██ █████ █ █  █  ██   █[0m
+   [0m       ██ ██ ██    █ █ █ █ ███  █       [38;5;223mB-Tech Computer Science from ADGIPS[0m[0m
+   [0m    ██    ██    ██ ███ ███ █ ██ █       [38;5;223mBackend Dev[0m[0m
+   [0m    █████ ██ █████ █ █ █ █ █  ███       [38;5;87mCyberSecurity Driven[0m[0m
+   [0m[0m
+   [0m    [38;5;202m█████████████████████████████       [38;5;223mSource: [38;5;87mhttps://github.com/0xZ15H4N/ysap[0m[0m
+   [0m    [38;5;255m██████████[38;5;27m█████████[38;5;255m██████████[0m
+   [0m    [38;5;34m█████████████████████████████[0m
+[0m
+[0m
+    [0m[38;5;223mLegend[0m[0m
+   [0m                                                              [0m[0m
+   [0m [38;5;120m$ Currently[0m[38;5;223m Learning Rust                                    [0m [38;5;87m[3m[0m[0m
+   [0m [38;5;120m$ Currently[0m[38;5;223m Working on Minimilistic firewall for cafe-shops  [0m [38;5;87m[3m[0m[0m
+   [0m [38;5;120m$ Currently[0m[38;5;223m Pursueing CEH from EC-Council                    [0m [38;5;87m[3m[0m[0m
+   [0m [38;5;120m$ Future[0m[38;5;223m Want to deep-dive into Blockchain developement      [0m [38;5;87m[3m[0m[0m
+   [0m [38;5;120m$ curl[0m[38;5;223m ysap.sh/ping                                          [0m [38;5;87m[3mGet a 200 with the text pong[0m[0m
+   [0m [38;5;120m$ curl[0m[38;5;223m [-46] ysap.sh/ip                                      [0m [38;5;87m[3mGet your current IP address as a string[0m[0m
+[0m
+    [0m[38;5;223mResources[0m[0m
+   [0m                       [0m[0m
+   [0m [38;5;120m$ curl[0m[38;5;223m style.ysap.sh  [0m [38;5;87m[3mBash Style Guide for writing safe scripts[0m[0m
+[0m
+    [0m[38;5;223mExtras[0m[0m
+   [0m                                  [0m[0m
+   [0m [38;5;120m$ curl[0m[38;5;223m xmas.ysap.sh | bash       [0m [38;5;87m[3mChristmas tree animation[0m[0m
+   [0m [38;5;120m$ curl[0m[38;5;223m nightfall.ysap.sh | bash  [0m [38;5;87m[3mMusic Album TUI[0m[0m
+[0m
