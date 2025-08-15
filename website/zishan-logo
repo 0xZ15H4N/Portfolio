@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+#
+#
+
+
+. ./theme | exit 
+
+ORANGE="\e[38;5;202m"
+WHITE="\e[38;5;255m"
+GREEN="\e[38;5;34m"
+BLUE="\e[38;5;27m"
+NAME_COLOR=$"\x1b[38;5;223m"
+
+
+# Print ZISHAN in big bold text
+printf "${NAME_COLOR}"
+echo "█████ ██ █████ █ █  █  ██   █"
+echo "   ██ ██ ██    █ █ █ █ ███  █"
+echo "██    ██    ██ ███ ███ █ ██ █"
+echo "█████ ██ █████ █ █ █ █ █  ███" 
+printf "${RESET}\n"        █
+# Indian flag with Ashoka Chakra
+# Top stripe (saffron)      
+# Middle stripe (white with Ashoka Chakra)
+printf "${ORANGE}█████████████████████████████${RESET}\n"
+printf "${WHITE}██████████${BLUE}█████████${WHITE}██████████${RESET}\n"
+#printf "${WHITE}███████████████${BLUE}████████████${WHITE}███████████████${RESET}\n"
+
+# Bottom stripe (green
+printf "${GREEN}█████████████████████████████${RESET}\n"
+

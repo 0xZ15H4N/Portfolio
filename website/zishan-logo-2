@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+RESET="\e[m"
+BLUE="\e[38;5;27m"
+
+# Big Ashoka Chakra (pixel-art style)
+CHAKRA=(
+"      ████      ████      "
+"    ██    ██  ██    ██    "
+"  ██  ██    ██    ██  ██  "
+"██    ██  ████  ██    ██  "
+"  ██  ██    ██    ██  ██  "
+"    ██    ██  ██    ██    "
+"      ████      ████      "
+)
+
+# Print Chakra
+for line in "${CHAKRA[@]}"; do
+    printf "${BLUE}%s${RESET}\n" "$line"
+done
+

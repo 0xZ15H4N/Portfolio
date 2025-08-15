@@ -39,7 +39,7 @@ format-description() {
 format-link() {
 	local link=$1
 
-	echo "${COLOR1}https://ysap.sh$link$RST"
+	echo "${COLOR1}$link$RST"
 }
 
 format-ticks() {

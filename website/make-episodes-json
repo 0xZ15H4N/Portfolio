@@ -9,7 +9,7 @@
 
 varname=$1
 
-baselink='https://ysap.sh'
+baselink=''
 
 # this is an "episode" object in the final json
 read -d '' -r json <<-"EOF"
@@ -48,7 +48,7 @@ output=$(printf '%s\n' "${objects[@]}" | jq -n \
     --argjson date "$now" \
     --arg link "$baselink" \
     '{
-        "name": "You Suck at Programming",
+        "name": "No I dont suck at Programming",
         "site": $link,
         "generated": $date,
         "episodes": [inputs]

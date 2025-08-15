@@ -7,18 +7,17 @@
 # Date: April 05, 2025
 # License: MIT
 
-dir=${1:-../episodes}
+dir=${1:-../blogs}
 
-for pt in "$dir"/pt*/meta.txt; do
+for pt in "$dir"/blog-*/meta.txt; do
 	mapfile -t lines < "$pt"
 
 	# read the meta at the top
 	title=${lines[0]}
 	num=${title%%.*}
 	title=${title#*. }
-	link=/v/$num
 	desc=${lines[1]}
-
+        
 	# read the key values pairs at the bottom
 	lines=("${lines[@]:2}")
 	declare -A links=()
@@ -28,12 +27,9 @@ for pt in "$dir"/pt*/meta.txt; do
 		links[$key]=$value
 	done
 
-	tiktok=${links[tiktok]}
-	youtube=${links[youtube]}
-	instagram=${links[instagram]}
+	link=${links[medium]}
+	[[ -n $link  ]] || continue
 
-	[[ -n $tiktok && -n $youtube && -n $instagram ]] || continue
-
-	printf '%s\t' "$num" "$title" "$desc" "$link" "$tiktok" "$youtube" "$instagram"
+	printf '%s\t' "$num" "$title" "$desc" "$link"
 	echo
 done

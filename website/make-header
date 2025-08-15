@@ -20,15 +20,15 @@ done
 
 padding=$(repeat-char ' ' "$padding")
 
-mapfile -t logo < <(./make-logo)
+mapfile -t logo < <(./zishan-logo)
 
 description=(
 	""
-	"${COLOR5}You Suck at Programming$RST"
-	"${COLOR5}Episodes and guide by dave eddy$RST"
-	"${COLOR1}https://ysap.sh | https://daveeddy.com$RST"
+	"${COLOR5}B-Tech Computer Science from ADGIPS$RST"
+	"${COLOR5}Backend Dev$RST"
+	"${COLOR1}CyberSecurity Driven$RST"
 	''
-	"${COLOR5}Source: ${COLOR1}https://github.com/bahamas10/ysap$RST"
+	"${COLOR5}Source: ${COLOR1}https://github.com/0xZ15H4N/ysap$RST"
 )
 
 len=${#logo[@]}
