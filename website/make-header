@@ -28,7 +28,7 @@ description=(
 	"${COLOR5}Backend Dev$RST"
 	"${COLOR1}CyberSecurity Driven$RST"
 	''
-	"${COLOR5}Source: ${COLOR1}https://github.com/0xZ15H4N/ysap$RST"
+	"${COLOR5}Source: ${COLOR1}https://github.com/0xZ15H4N/Portfolio$RST"
 )
 
 len=${#logo[@]}

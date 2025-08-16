@@ -19,7 +19,7 @@ help:
 
 .PHONY: build
 build: static/favicon.ico static/ysap.png static/favicon.jpg
-	mkdir -p _site _site/contact _site/static _site/blogs _site/projects
+	mkdir -p _site _site/contact _site/static _site/episodes _site/resources
 	# disable indexing for certain dirs
 	echo -n > _site/static/index.html
 	# copy static files
@@ -47,18 +47,16 @@ build: static/favicon.ico static/ysap.png static/favicon.jpg
 	# make jsonp for our HTML files
 	./make-commands-jsonp > _site/static/commands.js
 	./make-episodes-json EPISODES > _site/static/episodes.js
-	#cat _site/json > _site/episodes.json
-	# create all pages for each video
-	./make-video-pages
+	cat _site/json > _site/episodes.json
 
-#static/favicon.ico:
-	#curl -o $@ https://files.daveeddy.com/ysap/favicon.ico
+static/favicon.ico:
+	curl -o $@ https://files.daveeddy.com/ysap/favicon.ico
 
-#static/favicon.jpg:
-	#curl -o $@ https://files.daveeddy.com/ysap/favicon.jpg
+static/favicon.jpg:
+	curl -o $@ https://files.daveeddy.com/ysap/favicon.jpg
 
-#static/ysap.png:
-	#curl -o $@ https://files.daveeddy.com/ysap/ysap.png
+static/ysap.png:
+	curl -o $@ https://files.daveeddy.com/ysap/ysap.png
 
 .PHONY: all
 all: build deploy
