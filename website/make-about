@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+#
+# Print the "about" message formatted how I like it - this output is intended to
+# be piped into `tools/box`
+#
+# Author: Dave Eddy <dave@daveeddy.com>
+# Date: April 05, 2025
+# License: MIT
+
+. ./theme || exit 1
+
+readarray -t ABOUT << "EOF"
+> Programming: C , C++, Python3.12
+> Web Development: JavaScript, Node.js, Express.js, MongoDB
+> Cybersecurity: Burp Suite, Wireshark, Nmap ,Linux Security, 
+  Reverse Engineering,Binary Exploitation.
+EOF
+
+for line in "${ABOUT[@]}"; do
+	echo "$COLOR1$line$RST"
+done

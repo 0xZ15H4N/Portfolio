@@ -1,7 +1,7 @@
 const EPISODES = {
   "name": "No I dont suck at Programming",
   "site": "",
-  "generated": 1755330405,
+  "generated": 1755419868,
   "episodes": [
     {
       "title": "ITS TIME FOR CTFs WRITE-UPs",
