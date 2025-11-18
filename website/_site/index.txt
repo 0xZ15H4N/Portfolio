@@ -29,6 +29,5 @@
    [0m                                                              [0m[0m
    [0m [38;5;120m$ Currently[0m[38;5;223m Learning Rust                                    [0m [38;5;87m[3m[0m[0m
    [0m [38;5;120m$ Currently[0m[38;5;223m Working on Minimilistic firewall for cafe-shops  [0m [38;5;87m[3m[0m[0m
-   [0m [38;5;120m$ Currently[0m[38;5;223m Pursueing CEH from EC-Council                    [0m [38;5;87m[3m[0m[0m
    [0m [38;5;120m$ Future[0m[38;5;223m Want to deep-dive into Blockchain developement      [0m [38;5;87m[3m[0m[0m
 [0m
