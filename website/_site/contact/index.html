@@ -13,36 +13,82 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+		
+		<style>
+
+
+.code-container {
+  border: none; /* Remove the outer border */
+  margin: 16px 0;
+  overflow: hidden;
+}
+
+.code-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 15px;
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.copy-btn {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 8px;
+  background: black;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  color:green
+}
+
+.copy-btn:hover {
+	color:aqua
+}
+
+
+
+code {
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  font-size: 14px;
+}
+		</style>
+	
 	</head>
 	<body>
 		<div id="container">
 			<div id="top-nav">
 				<ul>
 					<li><a href="/">home</a></li>
-					<li><a href="/blogs">blogs</a></li> <!-----the episode become the blogs and resource become projects--->
+					<li><a href="/blogs" >blogs</a></li>
 					<li><a href="/projects">projects</a></li>
-					<li class="right"><a href="/contact" class="active">contact</a></li>
+					<li><a href="/certs">certs</a></li>
+					<li class="right" class="active"><a href="/contact">contact</a></li>
 				</ul>
 			</div>
 
 			<h1 class="title">&gt; ./contact.sh</h1>
 			<img src="/static/banner.jpg" class="logo self-portrait" alt="ME" width="200" height="175" />
-			<p class="content">
+				<div class="code-container">
+					<p class="content">
 				You can follow me on my socials below!
 				<br>
 				<br>
 				If you want to contact me directly please use the following email.
-				<br>
-				<br>
-				<a href="mailto:zishanza436@gmail.com">zishanza436@gmail.com</a>
-				<br>
-				<br>
-				If you are looking for my technical blog I have written you can check out my personal website here.
-				<br>
-				<br>
-				<a href="https://medium.com/@z.ishan_Ansari">MEDIUM</a>
-				<br>
-				<br>
+						</p>
+					
+					<div class="code-header">
+						
+						<button class="copy-btn" onclick="copyCode(this)">
+						<span class="copy-text">Copy</span>
+						<span class="copied-text" style="display: none;">Copied!</span>
+						</button>
+					</div>
+				</div>
+			<p>
 			My Resume : <a href="https://drive.google.com/file/d/1ntjy1VC2BMW7OlmleANAJLmogO_YfrL1/view?usp=sharing">resume</a>
 			</p>
 
@@ -57,5 +103,53 @@ source: <a class="alt" href="https://github.com/0xZ15H4N/Porfolio">LINK</a>
 			</code>
 		</pre>
 		       </div>
+		
+		<script>
+
+
+async function copyCode(button) {
+  const codeBlock = button.closest('.code-container').querySelector('code');
+  const codeText = "zishanza436@gmail.com";
+  
+  try {
+    await navigator.clipboard.writeText(codeText);
+    
+    // Update button text
+    const copyText = button.querySelector('.copy-text');
+    const copiedText = button.querySelector('.copied-text');
+    
+    copyText.style.display = 'none';
+    copiedText.style.display = 'inline';
+    
+    // Reset button text after 2 seconds
+    setTimeout(() => {
+      copyText.style.display = 'inline';
+      copiedText.style.display = 'none';
+    }, 2000);
+    
+  } catch (err) {
+    console.error('Failed to copy text: ', err);
+    // Fallback to old method
+    fallbackCopyTextToClipboard(codeText);
+  }
+}
+
+// Fallback for older browsers
+function fallbackCopyTextToClipboard(text) {
+  const textArea = document.createElement('textarea');
+  textArea.value = text;
+  document.body.appendChild(textArea);
+  textArea.focus();
+  textArea.select();
+  try {
+    document.execCommand('copy');
+  } catch (err) {
+    console.error('Fallback: Oops, unable to copy', err);
+  }
+  document.body.removeChild(textArea);
+}
+
+
+		</script>
 	</body>
 </html>
