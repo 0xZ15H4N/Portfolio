@@ -21,6 +21,9 @@
   border: none; /* Remove the outer border */
   margin: 16px 0;
   overflow: hidden;
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .code-header {
@@ -36,7 +39,6 @@
 .copy-btn {
   display: flex;
   align-items: center;
-  gap: 4px;
   padding: 4px 8px;
   background: black;
   font-size: 15px;
@@ -47,6 +49,10 @@
 
 .copy-btn:hover {
 	color:aqua
+}
+abbr {
+  text-decoration: none;
+  border-bottom: none;
 }
 
 
@@ -83,8 +89,10 @@ code {
 					<div class="code-header">
 						
 						<button class="copy-btn" onclick="copyCode(this)">
+						<abbr title="Click to copy email">
 						<span class="copy-text">Copy</span>
 						<span class="copied-text" style="display: none;">Copied!</span>
+						</abbr>
 						</button>
 					</div>
 				</div>
